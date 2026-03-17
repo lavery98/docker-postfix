@@ -1,7 +1,7 @@
 version: '2'
 services:
   postfix:
-    image: juanluisbaptiste/postfix:latest@sha256:4f770a2a6e1957ec45064826b64fbda0d2041729fe27774a7082a7646a63bd63
+    image: juanluisbaptiste/postfix:latest@sha256:93b58de5b5716295151acbffbfc08e80409c01e0ef5cf7763bc30dc49fc5c39f
     expose:
     - "25"
     env_file:
